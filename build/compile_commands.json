@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/hellscoffe/Development/nuttx-ddrivers/build",
-  "command": "/usr/bin/gcc  -I/home/hellscoffe/Development/nuttx-ddrivers/include -g -o CMakeFiles/Dummy.dir/src/dummy.c.o -c /home/hellscoffe/Development/nuttx-ddrivers/src/dummy.c",
-  "file": "/home/hellscoffe/Development/nuttx-ddrivers/src/dummy.c",
-  "output": "CMakeFiles/Dummy.dir/src/dummy.c.o"
-}
-]
