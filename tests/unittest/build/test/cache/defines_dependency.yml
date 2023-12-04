@@ -1,0 +1,6 @@
+---
+"../../src/dummy.c":
+- UNITY_INCLUDE_CONFIG_H
+- TEST
+- CMOCK_MEM_DYNAMIC
+- TEST

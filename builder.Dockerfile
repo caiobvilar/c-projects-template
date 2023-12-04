@@ -18,6 +18,9 @@ RUN apt-get install -y --no-install-recommends \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
+## Installing gnupg for signing commits
+RUN apt-get install gnupg2 -y
+
 VOLUME ["/builder/mnt"]
 WORKDIR /builder/mnt
 
