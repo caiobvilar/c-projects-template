@@ -1,4 +1,4 @@
-project_name=cproject
+project_name=nuttxddrivers
 builder-build:
 	docker build -f builder.Dockerfile -t $(project_name)-builder:latest .
 

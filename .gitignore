@@ -1,53 +1,30 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+.DS_Store
+.idea
+thumbs.db
+*.zip
+*.pyc
+*_pb2.py
+*.bak
 *.hex
+*.[oa]
+*.pb.go
+.vscode/ipch/**
+!.gitkeep
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+_build
+build
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-build/**
+artifacts
+doc/**
+.unison*
+node_modules
+go.sum
+**/_build
+**/parking
+
+test/**/build/
+# tests/unittest/generated
+
+compile_commands.json
+# FIXME: remove this in case you want this to be available for everyone.
+.vscode/c_cpp_properties.json
