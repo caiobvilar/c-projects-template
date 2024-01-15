@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/nuttx-ddrivers/build",
+  "command": "/usr/bin/gcc  -I/workspaces/nuttx-ddrivers/include -g -o CMakeFiles/Dummy.dir/src/dummy.c.o -c /workspaces/nuttx-ddrivers/src/dummy.c",
+  "file": "/workspaces/nuttx-ddrivers/src/dummy.c"
+}
+]

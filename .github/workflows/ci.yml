@@ -1,0 +1,10 @@
+name: ci
+on:
+  push:
+    branches:
+    - main
+  schedule:
+    - cron: '0 1 * * 0'
+jobs:
+  # empty
+

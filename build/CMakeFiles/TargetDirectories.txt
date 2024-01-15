@@ -1,0 +1,3 @@
+/workspaces/nuttx-ddrivers/build/CMakeFiles/rebuild_cache.dir
+/workspaces/nuttx-ddrivers/build/CMakeFiles/edit_cache.dir
+/workspaces/nuttx-ddrivers/build/CMakeFiles/Dummy.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/dummy/dummy.h
+stdint.h
+-
+
+/workspaces/nuttx-ddrivers/src/dummy.c
+dummy/dummy.h
+/workspaces/nuttx-ddrivers/src/dummy/dummy.h
+
