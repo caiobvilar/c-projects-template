@@ -103,7 +103,6 @@ ENV RUBYOPT "-KU -E utf-8:utf-8"
 # check all installed packages with "apt list", maybe remove packages.
 RUN apt remove -y \
     wget
-
 # FIXME: remove more packages ...
 # RUN apt remove -y \
 #     python3-yaml \

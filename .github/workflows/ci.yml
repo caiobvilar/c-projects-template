@@ -62,7 +62,7 @@ jobs:
             --platform linux/amd64 \
             --workdir /builder/mnt \
             -v ${{ github.workspace }}:/builder/mnt \
-            cproject-builder:latest \
+            nuttx-ddrivers-builder:latest \
             /bin/bash -c "rm -rf build; cmake -B build; cmake --build build"
       -
         name: Test library
@@ -72,7 +72,7 @@ jobs:
             --platform linux/amd64 \
             --workdir /builder/mnt/tests/unittest \
             -v ${{ github.workspace }}:/builder/mnt \
-            cproject-builder:latest \
+            nuttx-ddrivers-builder:latest \
             /bin/bash -c "ceedling clobber; ceedling gcov:all; ceedling utils:gcov"
       -
         name: Archive coverage results
