@@ -1,10 +1,4 @@
-# nuttx-ddrivers
-Device Drivers Development on NuttX RTOS
+# C Projects Template
 
-## Steps
+This is a template repository to use as a start for any C project I want to do.
 
-1. Build Image [done];
-2. Run a container from image;
-3. Added CMake;
-4. Added clang-tidy and clang-format;
-5. Ceedling and unity added and working properly.
