@@ -33,7 +33,7 @@ jobs:
         with:
           context: .
           file: builder.Dockerfile
-          tags: nuttx-ddrivers-builder:latest
+          tags: c-project-template-builder:latest
           outputs: type=docker,dest=/tmp/docker/${{ runner.os }}-builder-image.tar
 
   build-and-test:
@@ -62,7 +62,7 @@ jobs:
             --platform linux/amd64 \
             --workdir /builder/mnt \
             -v ${{ github.workspace }}:/builder/mnt \
-            nuttx-ddrivers-builder:latest \
+            c-projects-template-builder:latest \
             /bin/bash -c "rm -rf build; cmake -B build; cmake --build build"
       -
         name: Test library
@@ -72,7 +72,7 @@ jobs:
             --platform linux/amd64 \
             --workdir /builder/mnt/tests/unittest \
             -v ${{ github.workspace }}:/builder/mnt \
-            nuttx-ddrivers-builder:latest \
+            c-projects-template-builder:latest \
             /bin/bash -c "ceedling clobber; ceedling gcov:all; ceedling utils:gcov"
       -
         name: Archive coverage results
